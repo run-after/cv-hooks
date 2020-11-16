@@ -12,7 +12,11 @@ const App = () => {
         </div>
         <ul className='list-group list-group-flush'>
           <li className='list-group-item'>
-            <Practical />
+            <div id='practical' className='container'>
+              <h3 className='title text-center'>Experience</h3>
+
+              <Practical />
+            </div>
           </li>
           <li className='list-group-item'>
             <Education />
