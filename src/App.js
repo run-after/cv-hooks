@@ -14,12 +14,14 @@ const App = () => {
           <li className='list-group-item'>
             <div id='practical' className='container'>
               <h3 className='title text-center'>Experience</h3>
-
               <Practical />
             </div>
           </li>
           <li className='list-group-item'>
-            <Education />
+            <div id='education' className='container'>
+              <h3 className='title text-center'>Education</h3>
+              <Education />
+            </div>
           </li>
         </ul>
       </div>

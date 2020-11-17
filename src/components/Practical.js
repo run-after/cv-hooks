@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import '../styles/practical.css'
 
 const Practical = () => {
   const [practical, setPractical] = useState({
@@ -69,10 +68,10 @@ const Practical = () => {
     // Clear state
     setPractical({});
     // Iterate through remaining jobs and set in state
-    remainingJobs.forEach((a, i) => {
+    remainingJobs.forEach((job, i) => {
       setPractical((prevState) => ({
         ...prevState,
-        ['job' + i]: a
+        ['job' + i]: job
       }))
     });
   };
